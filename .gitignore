@@ -1,3 +1,4 @@
 .DS_Store
 build
 src/*/node_modules
+node_modules
