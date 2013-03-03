@@ -1,8 +1,8 @@
 ({
-  appDir: 'js',
-  baseUrl: '.',
+  appDir: '.',
+  baseUrl: 'js',
   mainConfigFile: 'js/config.js',
-  dir: '../../../build/mainConfigFile',
+  dir: '../../../build/mainConfigFile/app',
   modules: [{
     name: 'main'
   }]

@@ -1,5 +1,9 @@
+var args = "bust=" +  (new Date()).getTime();
+if (has("beenOptimized")) {
+  args = "";
+}
 requirejs.config({
-  urlArgs: "bust=" +  (new Date()).getTime(),
+  urlArgs: args,
   paths: {
     'cool': 'module'
   } 

@@ -1,8 +1,11 @@
 ({
-  appDir: 'js',
-  baseUrl: '.',
+  appDir: '.',
+  baseUrl: 'js',
   mainConfigFile: 'js/config.js',
-  dir: '../../../build/cacheBust',
+  dir: '../../../build/bustCache/app',
+  has: {
+    beenOptimized: true
+  },
   modules: [{
     name: 'main'
   }]
