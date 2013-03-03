@@ -1,7 +1,7 @@
 ({
   appDir: '.',
   baseUrl: 'js',
-  dir: '../../build/combineWithConfig',
+  dir: '../../../build/combineWithConfig',
   mainConfigFile: 'js/config.js',
   has: {
     beenOptimized: true
