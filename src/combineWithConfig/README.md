@@ -51,3 +51,9 @@ function main(module) {
 ```
 
 It has a little problem: we need to load `has.js` in production environment even if project does not need it.
+
+## Solution 2 - combine config.js into main.js (no example project)
+
+If your project has only one page, you can stop using config.js to call `requirejs.config` function.
+
+This is very simple solution, but it is not good when your product has a lot of entry point to load (which is written in `data-main` attribute).
