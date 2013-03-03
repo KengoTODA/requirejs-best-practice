@@ -3,6 +3,8 @@
 Set of best practice for RequireJS.
 You need `npm` to set up each examples.
 
+[![Build Status](https://travis-ci.org/eller86/requirejs-best-practice.png)](https://travis-ci.org/eller86/requirejs-best-practice)
+
 ## How to build
 
 Go to project directory like `src/mainConfigFile`, and execute `npm install` to install npm modules. It allows you to exec `grunt` to build project.
