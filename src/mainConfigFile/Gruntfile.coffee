@@ -3,6 +3,6 @@ module.exports = (grunt) ->
   grunt.initConfig
     exec:
       optimize:
-        command: 'node ../../lib/r.js -o app.build.js'
+        command: 'node ../../lib/r.js -o app/app.build.js'
 
   grunt.registerTask 'default', ['exec:optimize']
