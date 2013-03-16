@@ -17,3 +17,10 @@ Note that this practice depends on grunt version 0.4. You have to uninstall old 
 * A/B test
 * cache bundles ([i18n](http://requirejs.org/docs/api.html#i18n) and [cache](https://github.com/jensarps/AMD-cache) plugin)
 * preloading for assets (?)
+
+
+## Memo
+
+- dividing "static" configuration and "dynamic" configuration
+    - optimizer can remove "static" configuration like normal "paths"
+    - it cannot remove "dynamic" configuration like "config.i18n.locale", we need decide it dynamically
