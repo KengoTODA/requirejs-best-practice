@@ -2,7 +2,7 @@
   appDir: '.',
   baseUrl: 'js',
   mainConfigFile: 'js/config.js',
-  dir: '../../../build/a-b-testing/app',
+  dir: '../../../build/multivariate-testing/app',
   modules: [{
     name: 'main'
   }]
