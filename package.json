@@ -5,6 +5,6 @@
     "test": "for project in `find $(pwd)/src -type d -maxdepth 1 -mindepth 1`; do cd $project && npm install && grunt --verbose; done"
   },
   "devDependencies": {
-    "grunt-cli": "0.1.9"
+    "grunt-cli": "0.1.13"
   }
 }

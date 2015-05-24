@@ -3,7 +3,7 @@
 A set of best practice for RequireJS.
 You need `npm` to set up each examples.
 
-[![Build Status](https://travis-ci.org/eller86/requirejs-best-practice.png)](https://travis-ci.org/eller86/requirejs-best-practice)
+[![Build Status](https://travis-ci.org/KengoTODA/requirejs-best-practice.png)](https://travis-ci.org/KengoTODA/requirejs-best-practice)
 
 ## How to build
 
