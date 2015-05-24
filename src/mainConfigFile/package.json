@@ -2,7 +2,7 @@
   "name": "sample-for-mainConfigFile",
   "version": "0.1.0",
   "devDependencies": {
-    "grunt": "0.4.0",
+    "grunt": "0.4.5",
     "grunt-exec": "0.4.0"
   }
 }
